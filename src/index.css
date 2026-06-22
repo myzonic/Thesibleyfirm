@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Outfit:wght@300..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-accent: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-sage-50: #f4f7f5;
+  --color-sage-100: #e7eee9;
+  --color-sage-200: #d1ded5;
+  --color-sage-300: #aec5b6;
+  --color-sage-400: #85a390;
+  --color-sage-500: #62826e;
+  --color-sage-600: #4c6755;
+  --color-sage-700: #3e5346;
+  --color-sage-800: #334339;
+  --color-sage-900: #2b3730;
+
+  --color-mutedblue-50: #f5f8fa;
+  --color-mutedblue-100: #e8eff3;
+  --color-mutedblue-200: #cbdbe5;
+  --color-mutedblue-300: #9fc1d3;
+  --color-mutedblue-400: #6a9dbc;
+  --color-mutedblue-500: #4a7fa1;
+  --color-mutedblue-600: #3a6886;
+  --color-mutedblue-700: #31546e;
+  --color-mutedblue-800: #2b485d;
+  --color-mutedblue-900: #273e50;
+
+  --color-warmbeige-50: #fbfaf7;
+  --color-warmbeige-100: #f5f2eb;
+  --color-warmbeige-200: #eae4d7;
+  --color-warmbeige-300: #d8ceb8;
+  --color-warmbeige-400: #c1b294;
+  --color-warmbeige-500: #aba285;
+
+  --color-gold-50: #fdfaf3;
+  --color-gold-100: #fbf3db;
+  --color-gold-200: #f3e4b7;
+  --color-gold-300: #e7cf8a;
+  --color-gold-400: #dbae57;
+  --color-gold-500: #dfa72c;
+  --color-gold-600: #b88320;
+  --color-gold-700: #916318;
+  --color-gold-800: #714a14;
+  --color-gold-900: #553711;
+}
+
+/* Custom visual utilities */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+body {
+  background-color: var(--color-warmbeige-50);
+  color: #1a231f; /* soft off-black */
+  overflow-x: hidden;
+}
+
+/* Custom aesthetic glow */
+.subtle-shadow {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.02);
+}
+
+.card-hover-effect {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-hover-effect:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(98, 130, 110, 0.08);
+}
+

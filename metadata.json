@@ -1,0 +1,6 @@
+{
+  "name": "Gould Consultancy Counselling & Psychotherapy Services",
+  "description": "Professional support and psychoanalytic psychotherapy by Anita Gould, UKCP-accredited therapist. Over 20 years of clinical experience offering individual therapy, supervision, and online consultations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
