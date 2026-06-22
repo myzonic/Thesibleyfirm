@@ -1,0 +1,6 @@
+{
+  "name": "The Sibley Firm",
+  "description": "A premier entertainment public relations company based in Los Angeles, specializing in elevating culture and amplifying legacies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
